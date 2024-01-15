@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Aulia Rachman</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+
+    <!--Boxicons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><span>A</span>ulia.</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i> 
+            </nav>
+        </div>
+    </div>
+    <!--home-->
+    <div id="home">
+        <div class="container">
+            <div class="header-section">
+                <div class="header-text">
+                    <span>Mobile Developer</span>
+                    <h1>Perkenalkan, Saya Aulia Rachman</h1>
+                </div>
+                <div class="header-img">
+                    <img src="asset/images/profile.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="asset/images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title-1">About Me</h1>
+                    <p>Pengembang perangkat lunak dengan keahlian dalam mobile developer. 
+                    Semangat belajar dan berinovasi. Berantusias untuk terus meningkatkan 
+                    keterampilan, serta berkolaborasi dengan tim.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('softskills')">Softskills</p>
+                        <p class="tab-links" onclick="opentab('hardskills')">Hardskills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="softskills">
+                        <ul>
+                            <li>
+                                <span class="text">Java</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 70%;"></div>
+                                    <span class="percentage-text">70%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">JavaScript</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 60%;"></div>
+                                    <span class="percentage-text">60%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">PHP (Hypertext Prepocessor)</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 70%;"></div>
+                                    <span class="percentage-text">70%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">Python</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 75%;"></div>
+                                    <span class="percentage-text">75%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">HTML (Hypertext Markup Language)</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 90%;"></div>
+                                    <span class="percentage-text">90%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">CSS (Cascading Style Sheets)</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 80%;"></div>
+                                    <span class="percentage-text">80%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">MySQL</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 85%;"></div>
+                                    <span class="percentage-text">85%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">React Native</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 60%;"></div>
+                                    <span class="percentage-text">60%</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">Design Grafis</span>
+                                <span class="percent">
+                                    <div class="bar" style="width: 60%;"></div>
+                                    <span class="percentage-text">60%</span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hardskills">
+                        <ul>
+                            <li>Jujur</li>
+                            <li>Bertanggung jawab</li>
+                            <li>Detail dan teliti</li>
+                            <li>Kerjasama tim</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2023</span><br>Rekayasa Perangkat Lunak<br>SMK NEGERI 1 CIMAHI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--experience-->
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="experience-divider"></div>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="icon-container">
+                        <i class='bx bxs-briefcase'></i>
+                    </div>
+                    <h2>React Native Developer</h2>
+                    <p>PT. Sopwer Teknologi Indonesia</p>
+                    <p>Juli 2023 - Sekarang</p>
+
+                    <h4>E-Commerce Sakeena</h4>
+                    <p>Mengembangkan aplikasi e-commerce berbasis mobile menggunakan React Native.</p>
+                    <p class="desc-experience">Bertanggung jawab dalam pengerjaan proyek.</p>
+                    <p class="desc-experience">Detail dalam pengerjaan proyek.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="icon-container">
+                        <i class='bx bxs-briefcase'></i>
+                    </div>
+                    <h2>Android Developer | Praktik Kerja Lapangan</h2>
+                    <p>PT. Mitra Sinerji Teknoindo</p>
+                    <p>Januari 2023 - April 2023</p>
+
+                    <h4>Sistem Informasi Manajemen Aset</h4>
+                    <p>Membuat aplikasi manajemen aset berbasis mobile dengan bahasa pemrograman Java. Terdapat API (Application Programming Interface) dan database MySQL.</p>
+                    <p class="desc-experience">Bertanggung jawab dalam pengerjaan proyek.</p>
+                    <p class="desc-experience">Melaporkan hasil kerja secara berkala.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title-1">My Work</h1>
+            <div class="work-list">
+                <div class="work" data-work-index="1">
+                    <div class="content-slide">
+                        <div class="imgslide fade">
+                            <div class="numberslide">1 / 9</div>
+                            <img src="asset/images/10.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">2 / 9</div>
+                            <img src="asset/images/11.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">3 / 9</div>
+                            <img src="asset/images/12.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">4 / 9</div>
+                            <img src="asset/images/13.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">5 / 9</div>
+                            <img src="asset/images/14.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">6 / 9</div>
+                            <img src="asset/images/15.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">7 / 9</div>
+                            <img src="asset/images/16.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">8 / 9</div>
+                            <img src="asset/images/17.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">9 / 9</div>
+                            <img src="asset/images/18.png">
+                        </div>
+
+                        <a class="prev" onclick="nextslide(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="nextslide(1, 1)">&#10095;</a>
+                    </div>
+                    <h2>Aplikasi E-Commerce Sakeena</h2>
+                    <p>Mengembangkan aplikasi e-commerce berbasis mobile menggunakan React Native.</p>
+                </div>
+                <div class="work" data-work-index="2">
+                    <div class="content-slide">
+                        <div class="imgslide fade">
+                            <div class="numberslide">1 / 9</div>
+                            <img src="asset/images/1.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">2 / 9</div>
+                            <img src="asset/images/2.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">3 / 9</div>
+                            <img src="asset/images/3.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">4 / 9</div>
+                            <img src="asset/images/4.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">5 / 9</div>
+                            <img src="asset/images/5.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">6 / 9</div>
+                            <img src="asset/images/6.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">7 / 9</div>
+                            <img src="asset/images/7.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">8 / 9</div>
+                            <img src="asset/images/8.png">
+                        </div>
+                        <div class="imgslide fade">
+                            <div class="numberslide">9 / 9</div>
+                            <img src="asset/images/9.png">
+                        </div>
+
+                        <a class="prev" onclick="nextslide(-1, 2)">&#10094;</a>
+                        <a class="next" onclick="nextslide(1, 2)">&#10095;</a>
+                    </div>
+                    <h2>Sistem Informasi Manajemen Aset</h2>
+                    <p>Aplikasi ini membuat pengelolaan dan kontrol terhadap aset lebih terstruktur dan mudah.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-list">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-info">
+                        <p><a href="mailto:auliarchmn22@gmail.com"><i class='bx bxs-envelope'></i>auliarchmn22@gmail.com</a></p>
+                        <p><i class='bx bxs-phone'></i>0881023516721</p>
+                        <p><i class='bx bxs-map'></i>Jl. Encep Kartawiria, Citeureup, Cimahi</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/auliarach_"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/auliarch"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://linkedin.com/aulia-rachman-117240255"><i class='bx bxl-github'></i></a>
+                    </div>
+                    <a href="asset/cv/CV Aulia Rachman.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Custom js File Link-->
+    <script src="js/script.js"></script>
+</body>
+</html>

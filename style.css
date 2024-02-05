@@ -269,6 +269,10 @@ nav ul li a:hover::after{
 .experience-item h2 {
     margin-bottom: 15px;
 }
+.experience-item h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .experience-item h4 {
     margin-top: 10px;
     margin-bottom: 10px;
